@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Initial Site Launches"
+title: "Initial Site Launched"
 date: 2020-06-17
 ---
 
