@@ -1,4 +1,1 @@
 theme: jekyll-theme-slate
-name: Landon Jurgens
-markdown: kramdown
-permalink: /blog/:year/:month/:day/:title
