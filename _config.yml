@@ -11,7 +11,7 @@ baseurl: '/'
 email: 'xvownezn'
 google_analytics: 'UA-46278016-1'
 disqus: 'demowebsite'
-sharethis: '<script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=5f45a986b34e2300129e93d2&product=sop' async='async'></script>'
+sharethis: '<script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#property=5f45a986b34e2300129e93d2&product=sticky-share-buttons"></script>'
 
 # Authors
 authors:
