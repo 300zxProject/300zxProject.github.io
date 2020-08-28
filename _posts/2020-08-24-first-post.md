@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "First Post"
-categories: [ Jekyll, tutorial ]
+categories: [ First, 300zx ]
 image: assets/images/1.jpg
 featured: true
 comments: true
