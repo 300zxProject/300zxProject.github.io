@@ -10,4 +10,4 @@ The Driver
 
 The Machine
 ------
-![300zxPortrait](/assets/images/300zxAboutPortrait.jpg){:width="40%"} The car is a 1994 Nissan 300zx. It's an original Texas car that was sold in San Antonio in Late 1994. I'm the 6th owner at this point and the car has undergone quite a bit of restoration and upkeep. The chassis has over 180,000 miles as of 2020 and slowly growing. This car has given folks many miles of enjoyment and lots of time and attention has been given to help keep it in tip-top shape. I'm honored to keep the tradition going.
+![300zxPortrait](/assets/images/300zxAboutPortrait.jpg){:style="width: 40%; border:blue solid 4px;"} The car is a 1994 Nissan 300zx. It's an original Texas car that was sold in San Antonio in Late 1994. I'm the 6th owner at this point and the car has undergone quite a bit of restoration and upkeep. The chassis has over 180,000 miles as of 2020 and slowly growing. This car has given folks many miles of enjoyment and lots of time and attention has been given to help keep it in tip-top shape. I'm honored to keep the tradition going.
