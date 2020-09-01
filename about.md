@@ -1,22 +1,13 @@
 ---
 layout: page
 title: About
-comments: true
+comments: false
 ---
 
-This website is built with Jekyll and "Affiliates" (a Jekyll Template designed & developed by WowThemes.net). It is meant for demonstration purposes, so you can have an idea of how this theme looks in action so no real content can be found. Affiliates template for Jekyll is compatible with Github pages, in fact even this demo is created with Github Pages and hosted with Github. This page in example shows a page layout.
+####
+The Driver
+My passions for cars started way before I was able to drive. When I graduated out of college I decided to pickup a project car an started with the #00zx an the rest is history. This car is my second Z and has been a blast to own and drive. I've been to many events and has given me the opportunity to meet so many interesting people along the way.
 
-**License & Download**
-
-"Affiliates" for Jekyll is designed and developed by WowThemes.net and it is *free* for personal use.
-
-<a href="https://github.com/wowthemesnet/affiliates-jekyll-theme/archive/master.zip" target="_blank">Download - Affiliates Jekyll Theme</a>
-
-![jekyll template mediumish]({{site.baseurl}}/assets/images/theme1.jpg)
-
-![jekyll template mediumish]({{site.baseurl}}/assets/images/theme2.jpg)
-
-![jekyll template mediumish]({{site.baseurl}}/assets/images/theme3.jpg)
-
-![jekyll template mediumish]({{site.baseurl}}/assets/images/theme4.jpg)
-
+####
+The Machine
+The car itself is a 1994 Nissan 300zx. It's an original Texas car that was sold in San Antonio in Late 1994. I'm the 6th owner at this point and the car has undergone quit a bit of restoration and upkeep. The chassis has over 180,000 miles as of 2020 and slowly growing. This car has given folks many miles of enjoyment and lots of time and attention has been given to help keep it in tip top shape. I'm honored to keep the tradition going.
