@@ -3,7 +3,7 @@ name: "300zx Project"
 title: "300zx Project"
 description: "Home for everything that's part of the 300zx Project"
 meta_description: "300zx Project Blog"
-logo: 'assets/images/300zx_project_cropped_scaled.png'
+logo: 'assets/images/300zx_project_single_scaled.png'
 favicon: 'assets/images/favicon.ico'
 paginate: 12
 baseurl: '/'
