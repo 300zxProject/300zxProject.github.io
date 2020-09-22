@@ -8,4 +8,4 @@
 - Sharethis: [sharethis.com](https://sharethis.com) - Used for the organize Account buttons found at the top header of the site and the share buttons on every sponsor_contact
 - Form Spree: [formspree.io/](https://formspree.io/) - Used for the Contact m forms
 - Disqus: [disqus.com](https://disqus.com) - Used for the comment section on every post
-- 
+- [Google Analytics](https://analytics.google.com) - Used to measure site performance and get insight into who is visiting
