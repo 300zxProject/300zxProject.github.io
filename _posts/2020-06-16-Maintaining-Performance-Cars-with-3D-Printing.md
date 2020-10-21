@@ -2,7 +2,7 @@
 layout: post
 title:  "Maintaining Performance Cars with 3D Printing"
 categories: [ 3dpringing, 300zx ]
-image: assets/images/3dpring1.png
+image: assets/images/3dpring1.webp
 featured: false
 comments: true
 ---
