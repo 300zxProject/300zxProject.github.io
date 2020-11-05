@@ -6,7 +6,7 @@ comments: false
 
 The Driver
 ------
-![LandonPortrait](/assets/images/LandonAboutPortrait.jpeg){:width="40%"} My passion for cars started way before I was able to drive. When I graduated out of college I decided to pick up a project car an started with the 300zx and the rest is history. This car is my second Z and has been a blast to own and drive. It's brought me to events across the country and has given me the opportunity to meet so many interesting people along the way.
+![LandonPortrait](/assets/images/Landon.webp){:width="40%"} My passion for cars started way before I was able to drive. When I graduated college I wanted a project car and decided to pick up a 300zx and the rest is history. This car is my second Z and has been a blast to own and drive. It's brought me to events across the country and has given me the opportunity to meet so many interesting people along the way.
 
 The Machine
 ------
