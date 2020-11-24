@@ -386,12 +386,25 @@ span.post-name a,span.post-read-more a:hover {
     margin-top: 10px;
 }
 .beforefooter {
-    background: #fff100;
+    background-image:url(../images/300zx_footer.webp);
+    background-position: center;
+    background-size: cover;
+    /*background: #fff100;*/
     color: #111;
     padding: 50px 0;
     max-width: 100%;
     margin: 0px auto;
     margin-bottom: -50px; margin-top:50px;
+}
+.beforefooter h3,
+.beforefooter h5 {
+    color: white;
+    text-shadow: 1.5px 1.5px #675bff;
+}
+.beforefooter p,
+.beforefooter span {
+  color: white;
+  text-shadow: 1px 1px #675bff;
 }
 .footer a {color:inherit;}
 .footer a:hover {color:#fff; text-decoration:none;}
