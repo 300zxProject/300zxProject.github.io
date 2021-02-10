@@ -398,11 +398,13 @@ span.post-name a,span.post-read-more a:hover {
 }
 .beforefooter h3,
 .beforefooter h5 {
-    color: black;
+    color: white;
+    text-shadow: 1.5px 1.5px black;
 }
 .beforefooter p,
 .beforefooter span {
-  color: black;
+  color: white;
+  text-shadow: 1px 1px black;
 }
 .footer a {color:inherit;}
 .footer a:hover {color:#fff; text-decoration:none;}
