@@ -363,6 +363,9 @@ span.post-name a,span.post-read-more a:hover {
     margin: 0px auto;
     text-align: center;
 }
+.wrapintro span {
+  color: #888;
+}
 .footer {
 	border-top:1px solid rgba(0,0,0,.05)!important;
 	color:#999;
@@ -404,7 +407,6 @@ span.post-name a,span.post-read-more a:hover {
 .beforefooter p,
 .beforefooter span {
   color: white;
-  text-shadow: 1px 1px black;
 }
 .footer a {color:inherit;}
 .footer a:hover {color:#fff; text-decoration:none;}
