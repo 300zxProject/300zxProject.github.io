@@ -63,8 +63,9 @@
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Post</a>
                     <div class="dropdown-menu" aria-labelledby="dropdown01">
-                    <a class="dropdown-item" href="{{ site.url }}/first/300zx/2020/08/24/first-post.html">First Post</a>
-                    <a class="dropdown-item" href="{{ site.url }}/3dpringing/300zx/2020/06/16/Maintaining-Performance-Cars-with-3D-Printing.html">Maintaining Performance Cars with 3D Printing</a>
+                    {% for item in site.posts reversed limit:4 %}
+                        <a class="dropdown-item" href="{{item.url}}">{{item.title | truncate: 35}}</a>
+                    {% endfor %}
                     </div>
                 </li>
 
