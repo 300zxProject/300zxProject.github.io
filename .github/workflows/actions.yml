@@ -1,17 +1,18 @@
-name: Link Snitch
-on: push
+on: [push]
 
 jobs:
-  build:
-    env:
-      URL: https://300zxproject.com
-      FILENAME: report.yaml
-      CONFIG: config.json
+  broken_link_checker_job:
     runs-on: ubuntu-latest
+    name: Check for broken links
     steps:
-      - name: Check out master
-        uses: actions/checkout@master
-        with:
-          fetch-depth: 1
-      - name: Report broken links
-        uses: victoriadrake/link-snitch@master
+    - name: Check links
+      id: link-report
+      uses: celinekurpershoek/github-actions-link-checker@master
+      with:
+        # Required:
+        url: 'https://300zxproject.com'
+        # optional:
+        honorRobotExclusions: false
+        ignorePatterns: 'github'
+    - name: Get the result
+      run: echo "${{steps.link-report.outputs.result}}"
