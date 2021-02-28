@@ -1,5 +1,5 @@
 name: Link Snitch
-on [push]
+on: push
 
 jobs:
   build:
