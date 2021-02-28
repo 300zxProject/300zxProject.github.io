@@ -1,5 +1,6 @@
 name: Broken link check
 on:
+  push:
   schedule:
   - cron: "0 0 * * *"
 
