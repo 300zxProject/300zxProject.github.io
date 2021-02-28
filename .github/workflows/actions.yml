@@ -1,9 +1,5 @@
 name: Link Snitch
-
-on:
-  push:
-    branches:
-      - master
+on [push]
 
 env:
   URL: https://300zxproject.com
@@ -12,9 +8,7 @@ env:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
     steps:
       - name: Check out master
         uses: actions/checkout@master
