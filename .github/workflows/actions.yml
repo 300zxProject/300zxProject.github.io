@@ -14,5 +14,12 @@ jobs:
         # optional:
         honorRobotExclusions: false
         ignorePatterns: 'github'
+
+    - name: Create Issue
+      if: steps.link-report.outputs.status == 'failure'
+      uses: JasonEtco/create-an-issue@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
     - name: Get the result
       run: echo "${{steps.link-report.outputs.result}}"
