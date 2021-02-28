@@ -14,6 +14,7 @@ jobs:
         # optional:
         honorRobotExclusions: false
         ignorePatterns: 'github'
+      continue-on-error: true
 
     - name: Create Issue
       if: steps.link-report.outputs.status == 'failure'
