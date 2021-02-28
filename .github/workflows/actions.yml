@@ -1,3 +1,4 @@
+name: Broken link check
 on: [push]
 
 jobs:
@@ -5,21 +6,25 @@ jobs:
     runs-on: ubuntu-latest
     name: Check for broken links
     steps:
-    - name: Check links
-      id: link-report
-      uses: celinekurpershoek/github-actions-link-checker@master
-      with:
-        # Required:
-        url: 'https://300zxproject.com'
-        # optional:
-        honorRobotExclusions: false
-        ignorePatterns: 'github'
+      - name: Check for broken links
+        id: link-report
+        uses: celinekurpershoek/link-checker@v1.0.1
+        with:
+          # Required:
+          url: 'https://...'
+          # optional:
+          honorRobotExclusions: false
+          ignorePatterns: 'github,google'
+          recursiveLinks: false # Check all URLs on all reachable pages (could take a while)
+      - name: Get the result
+        run: echo "${{steps.link-report.outputs.result}}"
 
-    - name: Create Issue
-      if: ${{ failure() }}
-      uses: JasonEtco/create-an-issue@v2
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  create_issue_job:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: JasonEtco/create-an-issue@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-    - name: Get the result
-      run: echo "${{steps.link-report.outputs.result}}"
+
