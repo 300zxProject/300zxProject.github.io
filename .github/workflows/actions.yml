@@ -1,13 +1,12 @@
 name: Link Snitch
 on [push]
 
-env:
-  URL: https://300zxproject.com
-  FILENAME: report.yaml
-  CONFIG: config.json
-
 jobs:
   build:
+    env:
+      URL: https://300zxproject.com
+      FILENAME: report.yaml
+      CONFIG: config.json
     runs-on: ubuntu-latest
     steps:
       - name: Check out master
