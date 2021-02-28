@@ -14,7 +14,6 @@ jobs:
         # optional:
         honorRobotExclusions: false
         ignorePatterns: 'github'
-      continue-on-error: true
 
     - name: Create Issue
       if: ${{ failure() }}
