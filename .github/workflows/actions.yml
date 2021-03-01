@@ -19,17 +19,19 @@ jobs:
           honorRobotExclusions: false
           ignorePatterns: 'github,google'
           recursiveLinks: false # Check all URLs on all reachable pages (could take a while)
-      - name: Get the result
-        run: echo "${{steps.link-report.outputs.result}}"
 
-  create_issue_job:
-    runs-on: ubuntu-latest
-    steps:
       - uses: actions/checkout@v2
-      - uses: JasonEtco/create-an-issue@v2
+        if: failure()
+
+      - uses: JasonEtco/create-an-issue@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          RESULT: ${{steps.link-report.outputs.result}}
         with:
           filename: .github/bad-link-check-template.md
+        if: failure()
+
+      - name: Echo the result
+        run: echo "${{steps.link-report.outputs.result}}"
 
 
