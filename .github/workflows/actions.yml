@@ -11,7 +11,7 @@ jobs:
     steps:
       - name: Check for broken links
         id: link-report
-        uses: celinekurpershoek/link-checker@v1.0.1
+        uses: celinekurpershoek/link-checker@v1.0.2
         with:
           # Required:
           url: 'https://300zxproject.com'
@@ -26,7 +26,7 @@ jobs:
       - uses: JasonEtco/create-an-issue@v2
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          RESULT: ${{steps.link-report.outputs.result}}
+          OUTPUT: ${{steps.link-report.outputs}}
         with:
           filename: .github/bad-link-check-template.md
         if: failure()
