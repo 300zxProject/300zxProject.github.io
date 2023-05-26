@@ -326,7 +326,8 @@ span.post-name a,span.post-read-more a:hover {
 	margin-bottom:1rem;
 }
 .intro {
-    background-image:url(../images/300zx_title.webp);
+    background-image:url(../images/300zx_title2.jpg);
+    background-position-y: center;
     background-size:cover;
     padding: 9rem 0;
     margin-top:-87px;
