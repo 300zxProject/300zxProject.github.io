@@ -26,12 +26,12 @@ jobs:
       - uses: JasonEtco/create-an-issue@v2
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          OUPUT: echo "${{join(steps.link-report.outputs.*, \n)}}"
+          OUPUT: echo "${{join(steps.link-report.outputs.*, '\n')}}"
         with:
           filename: .github/bad-link-check-template.md
         if: failure()
 
       - name: Echo the result
-        run: echo "${{join(steps.link-report.outputs.*, \n)}}"
+        run: echo "${{join(steps.link-report.outputs.*, '\n')}}"
 
 
