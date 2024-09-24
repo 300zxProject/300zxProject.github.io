@@ -12,7 +12,7 @@ ruby RUBY_VERSION
 gem 'wdm', '>= 0.1.0' if Gem.win_platform?
 gem "kramdown", ">= 2.3.2"
 gem "kramdown-parser-gfm"
-gem "webrick"
+gem "webrick", ">= 1.8.2"
 group :jekyll_plugins do
     gem 'jekyll-feed', '>= 0.15.1'
     gem 'jekyll-sitemap'
