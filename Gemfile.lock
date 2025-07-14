@@ -95,7 +95,6 @@ DEPENDENCIES
   kramdown (>= 2.5.1)
   kramdown-parser-gfm
   webrick (>= 1.8.2)
-  webrick
 
 RUBY VERSION
    ruby 2.7.8p225
