@@ -93,7 +93,7 @@ DEPENDENCIES
   jekyll-paginate
   jekyll-seo-tag (>= 2.7.0)
   jekyll-sitemap
-  kramdown (>= 2.5.0)
+  kramdown (>= 2.5.1)
   kramdown-parser-gfm
   webrick (>= 1.8.2)
 
