@@ -12,8 +12,7 @@ GEM
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0)
     eventmachine (1.2.7)
-    eventmachine (1.2.7-x64-mingw32)
-    ffi (1.17.3)
+    ffi (1.17.0)
     forwardable-extended (2.6.0)
     google-protobuf (4.33.5)
       bigdecimal
@@ -85,7 +84,7 @@ GEM
 
 PLATFORMS
   ruby
-  x64-mingw32
+  x64-mingw-ucrt
 
 DEPENDENCIES
   jekyll-archives (>= 2.3.0)
@@ -93,7 +92,7 @@ DEPENDENCIES
   jekyll-paginate
   jekyll-seo-tag (>= 2.7.0)
   jekyll-sitemap
-  kramdown (>= 2.5.1)
+  kramdown (>= 2.3.2)
   kramdown-parser-gfm
   webrick (>= 1.8.2)
 
