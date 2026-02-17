@@ -4,9 +4,7 @@
 ---
 // Import partials from `sass_dir` (defaults to `_sass`)
 
-@import
-	"syntax"
-;
+@use "syntax";
 
 .about-paragraph {
   overflow: hidden;
