@@ -10,7 +10,7 @@ ruby RUBY_VERSION
 
 # If you have any plugins, put them here!
 gem 'wdm', '>= 0.1.0' if Gem.win_platform?
-gem "kramdown", ">= 2.3.2"
+gem "kramdown", ">= 2.5.0"
 gem "kramdown-parser-gfm"
 gem "webrick", ">= 1.8.2"
 group :jekyll_plugins do
