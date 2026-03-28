@@ -1,0 +1,49 @@
+# Site
+name: "300zx Project"
+title: "300zx Project"
+description: "Home for everything that's part of the 300zx Project"
+meta_description: "300zx Project Blog"
+logo: 'assets/images/300zx_project_single_scaled.png'
+favicon: 'assets/images/favicon.png'
+paginate: 12
+baseurl: '/'
+
+#formspree.io contact
+formspree:
+  contact: 'xvownezn'
+  sponsor_contact: 'xrgynqjn'
+
+google_analytics: 'UA-178650800-1'
+disqus: '300zxproject-com'
+sharethis: '<script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#property=5f45a986b34e2300129e93d2&product=sticky-share-buttons"></script>'
+
+# Authors
+authors:
+  Landon:
+    name: Landon Jurgens
+    display_name: Landon
+    gravatar: a5d33e1db31f1a5e3ad07cabfb4121f8
+    email: owner@300zxproject.com
+    web: https://300zxproject.com
+    twitter: https://twitter.com/300zxproject
+    description: "The main instigator of trouble around here."
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-archives
+
+# Archives
+jekyll-archives:
+  enabled:
+    - categories
+  layout: archive
+  permalinks:
+    category: '/category/:name/'
+
+# Other
+markdown: kramdown
+highlighter: rouge

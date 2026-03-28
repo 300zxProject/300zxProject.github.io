@@ -1,0 +1,13 @@
+# Author details
+#
+# 1. Edit information below
+# 2. Change site author in config.yml
+# 3. Change default post/page authors in config.yml
+#
+# Resource › http://blog.sorryapp.com/blogging-with-jekyll/2014/02/06/adding-authors-to-your-jekyll-site.html
+Landon:
+  name: "Landon Jurgens"
+  siterole: "owner, writer, 300zx enthusiast"
+  uri: https://300zxproject.com
+  email: owner@300zxproject.com
+  twitter: "@300zxproject"

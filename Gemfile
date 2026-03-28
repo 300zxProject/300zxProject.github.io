@@ -1,5 +1,4 @@
 source "https://rubygems.org"
-ruby RUBY_VERSION
 
 # Hello! This is where you manage which Jekyll version is used to run.
 # When you want to use a different version, change it below, save the
@@ -8,11 +7,10 @@ ruby RUBY_VERSION
 #     bundle exec jekyll serve
 #
 
-# If you have any plugins, put them here!
-gem 'wdm', '>= 0.1.0' if Gem.win_platform?
 gem "kramdown", ">= 2.3.0"
 gem "kramdown-parser-gfm"
 gem "webrick"
+
 group :jekyll_plugins do
     gem 'jekyll-feed'
     gem 'jekyll-sitemap'
