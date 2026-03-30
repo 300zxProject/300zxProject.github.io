@@ -1,0 +1,22 @@
+# Lychee configuration for link checking
+# Documentation: https://lychee.cli.rs/#/usage/config
+
+# Exclude localhost links
+exclude = [
+    "http://localhost:*",
+    "https://localhost:*",
+]
+
+# Accept status codes (including 429 for rate-limited responses)
+accept = [200, 204, 301, 302, 307, 308, 429]
+
+# Timeout in seconds
+timeout = 30
+
+# Maximum number of retries
+max_retries = 3
+
+# User agent
+user_agent = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+
+

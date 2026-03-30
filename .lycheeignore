@@ -1,0 +1,10 @@
+# Exclude external sites that may have DNS issues or aggressive rate limiting
+https://wheelwell.com/*
+
+# Exclude formspree endpoints (they return 405 for GET requests, only accept POST)
+https://formspree.io/*
+
+# Exclude localhost
+http://localhost*
+https://localhost*
+
