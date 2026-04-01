@@ -1,10 +1,12 @@
 # Lychee configuration for link checking
 # Documentation: https://lychee.cli.rs/#/usage/config
 
-# Exclude localhost links
+# Exclude localhost links and sites with bot protection
 exclude = [
     "http://localhost:*",
     "https://localhost:*",
+    "http://www.300zxclub.com/",
+    "https://www.thingiverse.com/thing:*",
 ]
 
 # Accept status codes (including 429 for rate-limited responses)
