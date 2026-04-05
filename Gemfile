@@ -12,11 +12,15 @@ ruby RUBY_VERSION
 gem 'wdm', '>= 0.1.0' if Gem.win_platform?
 gem "kramdown", ">= 2.5.1"
 gem "kramdown-parser-gfm"
+gem "minimal-mistakes-jekyll", "~> 4.27"
+gem "tzinfo", "~> 2.0"
+gem "tzinfo-data"
 gem "webrick", ">= 1.8.2"
 group :jekyll_plugins do
+    gem 'jekyll-remote-theme'
+    gem 'jekyll-include-cache'
     gem 'jekyll-feed', '>= 0.15.1'
     gem 'jekyll-sitemap'
     gem 'jekyll-paginate'
     gem 'jekyll-seo-tag', '>= 2.7.0'
-    gem 'jekyll-archives', '>= 2.3.0'
 end
