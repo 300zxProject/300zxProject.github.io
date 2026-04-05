@@ -1,49 +1,106 @@
-# Site
-name: "300zx Project"
 title: "300zx Project"
 description: "Home for everything that's part of the 300zx Project"
-meta_description: "300zx Project Blog"
-logo: 'assets/images/300zx_project_single_scaled.png'
-favicon: 'assets/images/favicon.png'
+url: "https://300zxproject.com"
+baseurl: ""
+
+remote_theme: "mmistakes/minimal-mistakes@4.27.1"
+minimal_mistakes_skin: "default"
+
+locale: "en-US"
+timezone: "America/Chicago"
+
+logo: "/assets/images/300zx_project_single_scaled.png"
+masthead_title: "300zx Project"
+
 paginate: 12
-baseurl: '/'
+paginate_path: /page:num/
 
-#formspree.io contact
+search: true
+search_provider: lunr
+search_full_content: true
+lunr:
+  search_within_pages: true
+
+author:
+  name: "Landon Jurgens"
+  avatar: "/assets/images/Landon.webp"
+  bio: "The main instigator of trouble around here."
+  location: "Texas"
+  links:
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://300zxproject.com"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-x-twitter"
+      url: "https://twitter.com/300zxproject"
+
+twitter:
+  username: "300zxproject"
+
+social:
+  instagram: "https://www.instagram.com/300zxproject/"
+
+footer:
+  links:
+    - label: "X"
+      icon: "fab fa-fw fa-x-twitter"
+      url: "https://twitter.com/300zxproject"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://www.instagram.com/300zxproject/"
+    - label: "Printables"
+      icon: "fas fa-fw fa-cube"
+      url: "https://www.printables.com/@slick666_28413/models"
+    - label: "Thingiverse"
+      icon: "fas fa-fw fa-shapes"
+      url: "https://www.thingiverse.com/Slick666/designs"
+
 formspree:
-  contact: 'xvownezn'
-  sponsor_contact: 'xrgynqjn'
+  contact: "xvownezn"
+  sponsor_contact: "xrgynqjn"
 
-google_analytics: 'UA-178650800-1'
-disqus: '300zxproject-com'
-sharethis: '<script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#property=5f45a986b34e2300129e93d2&product=sticky-share-buttons"></script>'
+google_analytics: "G-XXXXXXXXXX"
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "G-XXXXXXXXXX"
+    anonymize_ip: false
 
-# Authors
-authors:
-  Landon:
-    name: Landon Jurgens
-    display_name: Landon
-    gravatar: a5d33e1db31f1a5e3ad07cabfb4121f8
-    email: owner@300zxproject.com
-    web: https://300zxproject.com
-    twitter: https://twitter.com/300zxproject
-    description: "The main instigator of trouble around here."
+comments:
+  provider: "disqus"
+  disqus:
+    shortname: "300zxproject-com"
 
-# Plugins
 plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
+  - jekyll-remote-theme
+  - jekyll-include-cache
   - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate
   - jekyll-seo-tag
-  - jekyll-archives
 
-# Archives
-jekyll-archives:
-  enabled:
-    - categories
-  layout: archive
-  permalinks:
-    category: '/category/:name/'
+atom_feed:
+  hide: false
 
-# Other
 markdown: kramdown
 highlighter: rouge
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+      show_date: true
+      classes: wide
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+

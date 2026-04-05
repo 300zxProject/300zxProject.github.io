@@ -1,0 +1,35 @@
+---
+# Minimal Mistakes entry stylesheet
+---
+
+@charset "utf-8";
+@import "minimal-mistakes";
+
+.masthead .site-title {
+  display: none;
+}
+
+.btn--instagram {
+  background-color: #c13584;
+  color: #fff;
+}
+
+.btn--instagram:visited {
+  color: #fff;
+}
+
+.btn--instagram:hover {
+  background-color: #a52e71;
+  color: #fff;
+}
+
+.layout--home .page__hero--overlay {
+  background-position: center 62%;
+}
+
+@media (max-width: 768px) {
+  .layout--home .page__hero--overlay {
+    background-position: center 70%;
+  }
+}
+

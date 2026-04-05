@@ -1,7 +1,9 @@
 ---
-layout: page
+layout: single
 title: Comment Policy
 comments: false
+permalink: /commentpolicy/
+author_profile: false
 ---
 
 Welcome to 300zxproject.com, my little corner of the internet where I post up all

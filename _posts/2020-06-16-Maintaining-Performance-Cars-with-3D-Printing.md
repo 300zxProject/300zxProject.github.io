@@ -1,8 +1,9 @@
 ---
-layout: post
+layout: single
 title:  "Maintaining Performance Cars with 3D Printing"
 categories: [ 3dprinting, 300zx ]
-image: assets/images/posts/Maintaining_Performance_Cars_with_3D_Printing.webp
+header:
+  teaser: /assets/images/posts/Maintaining_Performance_Cars_with_3D_Printing.webp
 featured: true
 comments: true
 ---

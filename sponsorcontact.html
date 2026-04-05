@@ -1,29 +1,32 @@
 ---
-layout: page
+layout: single
 title: Sponsor Contact
+permalink: /sponsorcontact/
+author_profile: false
+comments: false
 ---
 
-<div class="contactformparagraph">
-<span>Looking to get involved with the project? Please reach out using the form
-  below and I'll get back to you as soon as possible.</span>
-</div>
+<p>Looking to get involved with the project? Use the form below and I’ll get back to you as soon as possible.</p>
 
-<form action="https://formspree.io/{{site.formspree.sponsor_contact}}" method="POST">
+<form action="https://formspree.io/f/{{ site.formspree.sponsor_contact }}" method="POST" accept-charset="UTF-8">
 
-    <div class="form-group row">
+    <p>
+        <label for="sponsor-name">Name</label><br>
+        <input id="sponsor-name" type="text" name="name" required>
+    </p>
 
-        <div class="col-md-6">
-            <input class="form-control" type="text" name="name" placeholder="Name">
-        </div>
+    <p>
+        <label for="sponsor-email">Email</label><br>
+        <input id="sponsor-email" type="email" name="email" required>
+    </p>
 
-        <div class="col-md-6">
-            <input class="form-control" type="email" name="_replyto" placeholder="E-mail Address">
-        </div>
+    <p>
+        <label for="sponsor-message">Message</label><br>
+        <textarea id="sponsor-message" rows="8" name="message" required></textarea>
+    </p>
 
-    </div>
+    <input type="hidden" name="_subject" value="300zx Project Sponsor Inquiry">
 
-    <textarea rows="8" class="form-control mb-3" name="message" placeholder="Message"></textarea>
-
-    <input class="btn btn-success" type="submit" value="Send">
+    <button class="btn btn--primary" type="submit">Send</button>
 
 </form>
