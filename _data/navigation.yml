@@ -1,0 +1,16 @@
+main:
+  - title: "Home"
+    url: /
+
+  - title: "About"
+    url: /about/
+
+  - title: "Contact"
+    url: /contact/
+
+  - title: "Comment Policy"
+    url: /commentpolicy/
+
+  - title: "Search"
+    url: /search/
+
