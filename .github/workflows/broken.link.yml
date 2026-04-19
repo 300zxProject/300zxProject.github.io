@@ -9,17 +9,19 @@ on:
 jobs:
   linkChecker:
     runs-on: ubuntu-latest
+    env:
+      BUNDLE_GEMFILE: Gemfile.localpreview
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.1'
+          ruby-version: '3.3.6'
           bundler-cache: true
 
       - name: Build Jekyll site
-        run: bundle exec jekyll build
+        run: bundle exec jekyll build --config _config.yml,_config.local.yml
 
       - name: Link Checker
         id: lychee
