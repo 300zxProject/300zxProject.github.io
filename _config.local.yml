@@ -1,0 +1,11 @@
+remote_theme: null
+theme: minimal-mistakes-jekyll
+
+plugins:
+  - jekyll-include-cache
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-seo-tag
+
+

@@ -6,6 +6,8 @@ exclude = [
     "http://localhost:*",
     "https://localhost:*",
     "http://www.300zxclub.com/",
+    "https://www.printables.com/@slick666_28413/models",
+    "https://www.thingiverse.com/Slick666/designs",
     "https://www.thingiverse.com/thing:*",
 ]
 
